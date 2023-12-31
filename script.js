@@ -4,6 +4,19 @@ document.addEventListener("DOMContentLoaded", function() {
   var carousel = document.getElementById("carousel-container");
   var copyCarousel = document.getElementById("word-carousel").cloneNode(true); 
   carousel.appendChild(copyCarousel);
+  var titulo = document.querySelector(".box-1");
+  var tituloText = document.querySelector(".text-title");
+
+  titulo.addEventListener("mouseenter", function () {
+    tituloText.classList.add("text-title-2")
+    
+  });
+
+  titulo.addEventListener("mouseleave", function () {
+    tituloText.classList.remove("text-title-2")
+    tituloText.classList.add("text-title")
+
+  });
 
   updateCurrentDate();
 
