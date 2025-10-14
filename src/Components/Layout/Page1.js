@@ -2,26 +2,26 @@ import Banner from "../Banner/Banner";
 import Contact from "../Contact/Contact";
 import ContainerCard from "../ContainerCard/ContainerCard";
 
-const cards = [
+const homeCards = [
     {
         id: 1,
         label: "ABOUT",
-        description: "This is a brief description about me.",
-        link: "#about",
+        description: "Desenvolvedor Fullstack apaixonado por tecnologia. Clique para conhecer minha formação acadêmica e trajetória profissional.",
+        link: "/about",
         color: "#383838"
     },
     {
         id: 2,
         label: "PORTFOLIO",
-        description: "Check out my projects and work!",
-        link: "#portfolio",
+        description: "Explore meus projetos desenvolvidos ao longo dos semestres na FATEC, desde aplicações web até mobile.",
+        link: "/portifolio",
         color: "#20221D"
     },
     {
         id: 3,
         label: "SKILLS",
-        description: "Here are the skills I have mastered.",
-        link: "#skills",
+        description: "Conheça as tecnologias e ferramentas que domino: HTML, CSS, JavaScript, React, Node.js, Java, Spring Boot, MySQL, Kotlin e Android.",
+        link: "/about",
         color: "#16111C"
     },
 ];
@@ -31,8 +31,8 @@ export default function Page1() {
         <>
             <Banner />
             <Contact />
-            <ContainerCard 
-                cards={cards}
+            <ContainerCard
+                cards={homeCards}
             />
         </>
     );

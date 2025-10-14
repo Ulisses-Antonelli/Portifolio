@@ -1,11 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Card.module.css";
 
 export default function Card({ label, description, link, color, style }) {
+    const navigate = useNavigate();
 
     const handleClick = () => {
         if (link) {
-            window.location.href = link;
+            if (link.startsWith('/')) {
+                navigate(link);
+            } else {
+                window.location.href = link;
+            }
         }
     };
 
@@ -13,7 +19,7 @@ export default function Card({ label, description, link, color, style }) {
         <div
             className={styles.card}
             style={{ backgroundColor: color, ...style?.card }}
-            onClick={ handleClick }
+            onClick={handleClick}
             role="button"
             tabIndex={0}
             onKeyDown={(e) => {

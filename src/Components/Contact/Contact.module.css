@@ -8,25 +8,29 @@
     color: white;
     margin: 1px 40px 20px 40px;
     gap: 15px;
+    align-items: flex-end;
 }
 
 .contactButtons {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 20px;
+    width: 100%;
 }
 
 .description {
-    text-align: center;
+    text-align: right;
     font-size: 1.6rem;
+    width: 100%;
 }
 
 .emailContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     gap: 8px;
+    width: 100%;
 }
 
 .emailText {
@@ -34,4 +38,5 @@
     color: #a0a0a0;
     margin: 0;
     font-family: "Arial", sans-serif;
+    text-align: right;
 }
