@@ -1,0 +1,64 @@
+.card {
+    flex: 1;
+    height: 100%;
+    border-radius: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+    position: relative;
+    cursor: pointer;
+    transition: flex 0.4s ease, background-color 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    flex: 5.6;
+}
+
+.card:not(:hover) {
+    flex: .5;
+}
+
+.label {
+    margin: 0px 0px 20px 20px;
+    padding: 10px 14px 4px 42px;
+    font-weight:lighter;
+    border: 3px solid white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: "Staatliches", sans-serif;
+    color: #fff;
+    z-index: 1;
+    transform: rotate(0deg); /* Texto na horizontal inicialmente */
+    transition: all 0.4s ease-in-out;
+}
+
+.card:hover .label {
+    position: absolute;
+    bottom: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    font-weight:lighter;
+    font-size: 3.5rem;
+    font-family: "Staatliches", sans-serif;
+    transform: rotate(-90deg) /* Mantém as letras em posição normal */
+}
+
+.description {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    right: 10%;
+    text-align: center;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    font-size: 2rem;
+    font-family: "Staatliches", sans-serif;
+    color: #fff;
+}
+
+.card:hover .description {
+    opacity: 1;
+    transform: translateY(0px);
+}

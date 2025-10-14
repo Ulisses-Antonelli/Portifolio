@@ -1,0 +1,36 @@
+.banner {
+    display: flex;
+    background-color: #BCBCBC;
+    margin: 10px 40px 0px 40px;
+    color: #ffffff;
+    padding: 0.3rem 3rem 0.3rem 3rem;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 25px;
+  }
+
+  .title {
+    font-family: "Almarai", sans-serif;
+    font-weight:normal;
+    font-size: 5.5rem;
+    color: #3C3C3C;
+    margin-right: auto;
+  }
+
+  .container{
+    display: flex;
+  }
+
+  .container img {
+    width: 75px;
+    margin-left: 2rem;
+  }
+  
+  .description {
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 2.8rem;
+    font-weight: 200;
+    color: #242424;
+    max-width: 60%;
+  }
+  

@@ -1,0 +1,20 @@
+.contactGithub {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    background-color: #1B0707;
+    width: 200px;
+    height: 80%;
+    padding: 0px 10px 15px 0px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.contactGithubIcon {
+    width: 50px;
+}
+
+.contactGithub:hover {
+    background-color: #000;
+    border: 1px solid white;
+}

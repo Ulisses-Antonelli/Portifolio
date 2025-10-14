@@ -1,0 +1,21 @@
+useState:
+variavel responsavel por armazenar e atualizar valores que são alterados em função das ações dos usuarios
+
+useEffect:
+executa algum código sempre que um componente ou algum estado/valor é alterados
+
+useRef:
+variavel que armazena valores que mudam, são alterados mas que com as alterações não causam re-renderizações, ou seja algum valor muda e o componente não é novamente renderizado
+
+useCallback:
+função que memoriza funções
+
+
+
+variavel useRef
+variavel useState
+
+variavel IFC
+
+Função que randomiza a escolha dos modelos
+
