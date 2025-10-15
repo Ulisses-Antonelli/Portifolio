@@ -6,13 +6,15 @@ import ContactGithub from "../ContactGithub/ContactGithub";
 export default function Contact() {
     return(
         <section className={styles.contactContainer}>
-            <div className={styles.contactButtons}>
-                <ContactLinkedin />
-                <ContactGithub />
+            <div className={styles.topSection}>
+                <div className={styles.contactButtons}>
+                    <ContactLinkedin />
+                    <ContactGithub />
+                </div>
             </div>
-            <div className={styles.description}>
-                <p>
-                Estudante do 6º Semestre do curso superior de Desenvolvimento de Software Multiplataforma na FATEC Zona Leste
+            <div className={styles.descriptionBox}>
+                <p className={styles.descriptionText}>
+                    Estudante do 6º Semestre do curso superior de Desenvolvimento de Software Multiplataforma na FATEC Zona Leste
                 </p>
             </div>
             <div className={styles.emailContainer}>

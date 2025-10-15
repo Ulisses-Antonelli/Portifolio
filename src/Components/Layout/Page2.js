@@ -1,10 +1,7 @@
-import { useState } from "react";
 import ContainerCardProject from "../ContainerCardProjetc/ContainerCardProject";
-import DropDownList from "../DropDownList/DropDownList";
 import InfoBanner from "../InfoBanner/InfoBanner";
 
 export default function Page2() {
-
     const projects = [
         {
             image: "https://placehold.co/560x200?text=Saude+Exata",
@@ -53,23 +50,13 @@ export default function Page2() {
 
     ];
 
-    const techOptions = ["All", "HTML", "CSS", "JavaScript", "jQuery", "Node", "React", "Java", "Spring Boot", "MySQL", "Bootstrap", "Kotlin", "Android"];
-    const [filteredTech, setFilteredTech] = useState("");
-
-    const filteredProjects = filteredTech && filteredTech !== "All"
-        ? projects.filter((project) =>
-            project.technologies.includes(filteredTech)
-        )
-        : projects;
-
     return (
         <>
             <InfoBanner
-                title= "Portfólio </>"
-                description= "Projetos acadêmicos desenvolvidos durante a graduação em Desenvolvimento de Software Multiplataforma na FATEC Zona Leste."
+                title="Portfólio </>"
+                description="Projetos acadêmicos desenvolvidos durante a graduação em Desenvolvimento de Software Multiplataforma na FATEC Zona Leste."
             />
-            <DropDownList options={techOptions} onSelect={setFilteredTech} />
-            <ContainerCardProject projects={filteredProjects} />
-        </>   
+            <ContainerCardProject projects={projects} />
+        </>
     );
 }

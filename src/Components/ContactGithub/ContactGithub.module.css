@@ -1,13 +1,15 @@
 .contactGithub {
     display: flex;
-    align-items: flex-end;
-    justify-content: end;
-    background-color: #1B0707;
-    width: 200px;
-    height: 80%;
-    padding: 0px 10px 15px 0px;
-    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 30px;
+    background: rgba(18, 18, 18, 0.5);
+    border-radius: 25px;
+    border: 2px solid rgb(255, 255, 255);
     text-decoration: none;
+    height: 60px;
+    width: 100%;
+    transition: background 0.3s ease;
 }
 
 .contactGithubIcon {
@@ -16,5 +18,4 @@
 
 .contactGithub:hover {
     background-color: #000;
-    border: 1px solid white;
 }

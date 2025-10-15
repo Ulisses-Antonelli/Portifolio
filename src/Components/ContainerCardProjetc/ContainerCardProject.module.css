@@ -1,41 +1,35 @@
-.borda{
+.borda {
     display: flex;
-    margin: 5px 40px 0px 40px;
-    justify-content: space-between;
+    margin: 5px 40px 20px 40px;
+    justify-content: center;
     align-items: center;
-    border-bottom: 5px solid rgb(255, 255, 255);
-    padding-bottom: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    padding: 15px 30px;
+    background: rgba(18, 18, 18, 0.5);
+}
+
+.borderText {
+    font-family: "Staatliches", sans-serif;
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
 }
 
 .grid {
-    display: grid;
-    grid-template-areas:
-        "featured small1 small2"
-        "featured large large";
-    grid-template-columns: 2fr 1fr 1fr; /* Define as larguras das colunas */
-    grid-template-rows: auto auto;     /* Define a altura das linhas */
-    gap: 1px; 
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
     background-color: rgb(255, 255, 255);
+    margin: 0 40px;
+    padding: 0.5px;
     border-radius: 25px;
-    padding: 2px;
-    height: auto;
 }
 
-.featured {
-    grid-area: featured;
-    width: 50vw;
-}
-
-.small1 {
-    grid-area: small1;
-}
-
-.small2 {
-    grid-area: small2;
-}
-
-.large {
-    grid-area: large;
+.projectCard {
+    height: 200px;
+    min-height: 200px;
+    max-height: 200px;
 }
 
 .pagination {
