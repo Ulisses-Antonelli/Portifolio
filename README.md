@@ -1,6 +1,6 @@
 # Portfólio - Ulisses Antonelli
 
-Portfólio profissional desenvolvido para apresentar projetos acadêmicos e experiência profissional como Projetista de Estruturas Metálicas e Desenvolvedor de Software.
+Portfólio desenvolvido para apresentar projetos acadêmicos e experiência profissional como Projetista de Estruturas Metálicas e Desenvolvedor de Software.
 
 ## 🔗 Acesse o Portfólio
 
@@ -8,7 +8,7 @@ Portfólio profissional desenvolvido para apresentar projetos acadêmicos e expe
 
 ## 📋 Sobre o Projeto
 
-Este portfólio foi desenvolvido para apresentar de forma profissional e organizada:
+Este portfólio foi desenvolvido para apresentar:
 
 - **Projetos Acadêmicos**: Projetos desenvolvidos durante a graduação em Desenvolvimento de Software Multiplataforma (DSM) na FATEC Zona Leste
 - **Experiência Profissional**: Mais de 14 anos de experiência em projetos de estruturas metálicas
@@ -59,44 +59,6 @@ Seção completa com:
 - Principais competências técnicas
 - Formação acadêmica
 - Experiências profissionais detalhadas
-
-## 🚀 Como Executar Localmente
-
-### Pré-requisitos
-- Node.js instalado (versão 14 ou superior)
-- npm ou yarn
-
-### Instalação
-
-1. Clone o repositório:
-```bash
-git clone https://github.com/Ulisses-Antonelli/Portifolio.git
-cd Portifolio
-```
-
-2. Instale as dependências:
-```bash
-npm install
-```
-
-3. Execute em modo de desenvolvimento:
-```bash
-npm start
-```
-
-O aplicativo abrirá em [http://localhost:3000](http://localhost:3000)
-
-### Build para Produção
-
-```bash
-npm run build
-```
-
-### Deploy para GitHub Pages
-
-```bash
-npm run deploy
-```
 
 ## 📱 Contato
 
