@@ -1,70 +1,114 @@
-# Getting Started with Create React App
+# Portfólio - Ulisses Antonelli
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Portfólio profissional desenvolvido para apresentar projetos acadêmicos e experiência profissional como Projetista de Estruturas Metálicas e Desenvolvedor de Software.
 
-## Available Scripts
+## 🔗 Acesse o Portfólio
 
-In the project directory, you can run:
+**[https://ulisses-antonelli.github.io/Portifolio/](https://ulisses-antonelli.github.io/Portifolio/)**
 
-### `npm start`
+## 📋 Sobre o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Este portfólio foi desenvolvido para apresentar de forma profissional e organizada:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Projetos Acadêmicos**: Projetos desenvolvidos durante a graduação em Desenvolvimento de Software Multiplataforma (DSM) na FATEC Zona Leste
+- **Experiência Profissional**: Mais de 14 anos de experiência em projetos de estruturas metálicas
+- **Formação Acadêmica**: Trajetória educacional e competências técnicas
+- **Contato**: Links para redes profissionais e formas de contato
 
-### `npm test`
+## 🛠️ Tecnologias Utilizadas
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **React 18** - Biblioteca JavaScript para construção de interfaces
+- **React Router DOM** - Navegação entre páginas
+- **CSS Modules** - Estilização modular e componentizada
+- **GitHub Pages** - Hospedagem do site estático
 
-### `npm run build`
+## 📂 Estrutura do Projeto
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+portifolio-dev/
+├── public/              # Arquivos públicos
+├── src/
+│   ├── Components/      # Componentes React
+│   │   ├── Banner/      # Banner principal da home
+│   │   ├── Card/        # Cards de navegação
+│   │   ├── CardProject/ # Cards de projetos
+│   │   ├── Contact/     # Seção de contato
+│   │   ├── Header/      # Cabeçalho de navegação
+│   │   ├── InfoBanner/  # Banner informativo
+│   │   └── Layout/      # Páginas principais
+│   └── assets/          # Imagens e ícones
+└── package.json         # Dependências e scripts
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📄 Páginas
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Home
+Página inicial com banner personalizado, informações de contato e navegação para as demais seções.
 
-### `npm run eject`
+### Portfólio
+Apresentação dos projetos acadêmicos desenvolvidos durante os semestres da graduação:
+- **1º Semestre**: Saúde Exata - Website com calculadoras de índices corporais
+- **2º Semestre**: Battle String - Jogo web interativo
+- **3º Semestre**: TechRecycle - Plataforma de reciclagem de resíduos eletrônicos
+- **4º Semestre**: CodeCrumbsMobile - App de flashcards para programação
+- **6º Semestre**: TaskManager CIVIL - Sistema de gerenciamento de projetos de construção
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### About
+Seção completa com:
+- Resumo profissional
+- Principais competências técnicas
+- Formação acadêmica
+- Experiências profissionais detalhadas
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Como Executar Localmente
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Pré-requisitos
+- Node.js instalado (versão 14 ou superior)
+- npm ou yarn
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Instalação
 
-## Learn More
+1. Clone o repositório:
+```bash
+git clone https://github.com/Ulisses-Antonelli/Portifolio.git
+cd Portifolio
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. Instale as dependências:
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Execute em modo de desenvolvimento:
+```bash
+npm start
+```
 
-### Code Splitting
+O aplicativo abrirá em [http://localhost:3000](http://localhost:3000)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Build para Produção
 
-### Analyzing the Bundle Size
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Deploy para GitHub Pages
 
-### Making a Progressive Web App
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📱 Contato
 
-### Advanced Configuration
+- **LinkedIn**: [Ulisses Antonelli](https://www.linkedin.com/in/ulisses-antonelli-softwaredeveloper/)
+- **GitHub**: [Ulisses-Antonelli](https://github.com/Ulisses-Antonelli)
+- **Email**: Ulisses.antonelli@fatec.sp.gov.br
+- **Email**: Ulissesantonelli.projetos@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 📝 Licença
 
-### Deployment
+Este projeto é de uso pessoal para fins de apresentação profissional.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Desenvolvido por Ulisses Antonelli | 2024
