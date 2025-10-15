@@ -69,7 +69,7 @@ export default function Page2() {
         <>
             <InfoBanner
                 title="Portfólio </>"
-                description="Projetos acadêmicos desenvolvidos durante a graduação em Desenvolvimento de Software Multiplataforma na FATEC Zona Leste."
+                description="Projetos acadêmicos desenvolvidos durante a graduação em DSM na FATEC Zona Leste."
             />
             <ContainerCardProject projects={projects} />
         </>
