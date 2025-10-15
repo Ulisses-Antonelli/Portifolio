@@ -1,10 +1,14 @@
 import ContainerCardProject from "../ContainerCardProjetc/ContainerCardProject";
 import InfoBanner from "../InfoBanner/InfoBanner";
+import BattleStringImage from "../../assets/Battle String.png";
+import SaudeExataImage from "../../assets/SaudeExata.png";
+import TechRecycleImage from "../../assets/Tech Recycle.png";
+import CodeCrumbsMobileImage from "../../assets/CodeCrumbsMobile.png";
 
 export default function Page2() {
     const projects = [
         {
-            image: "https://placehold.co/560x200?text=Saude+Exata",
+            image: SaudeExataImage,
             title: "Saúde Exata",
             semester: "1º Semestre",
             description: "Website oferecendo quatro calculadoras de índices corporais: peso ideal (IMC), gordura corporal, taxa metabólica basal e calculadora de macros. Desenvolvido seguindo metodologia ágil Lean e padrões de acessibilidade WCAG, com design responsivo para mobile e tablet.",
@@ -15,7 +19,7 @@ export default function Page2() {
             technologies: ["HTML", "CSS", "JavaScript", "jQuery"],
         },
         {
-            image: "https://placehold.co/270x100?text=Battle+String",
+            image: BattleStringImage,
             title: "Battle String",
             semester: "2º Semestre",
             description: "Jogo web interativo desenvolvido com foco em gameplay dinâmico e engajante. Projeto construído utilizando Node.js para o servidor e JavaScript puro no frontend, explorando conceitos de desenvolvimento de jogos para web.",
@@ -26,7 +30,7 @@ export default function Page2() {
             technologies: ["JavaScript", "HTML", "CSS", "Node"],
         },
         {
-            image: "https://placehold.co/270x100?text=Tech+Recycle",
+            image: TechRecycleImage,
             title: "TechRecycle",
             semester: "3º Semestre",
             description: "Plataforma de recompensa por comportamento sustentável que visa incentivar a reciclagem de resíduos eletrônicos. Sistema fullstack desenvolvido com Spring Boot no backend e React no frontend, implementando cadastro de usuários e estabelecimentos.",
@@ -37,15 +41,26 @@ export default function Page2() {
             technologies: ["Java", "Spring Boot", "MySQL", "React", "Bootstrap"],
         },
         {
-            image: "https://placehold.co/570x100?text=Mobile+Android",
-            title: "Desenvolvimento Mobile Android",
+            image: CodeCrumbsMobileImage,
+            title: "CodeCrumbsMobile",
             semester: "4º Semestre",
-            description: "Projeto de desenvolvimento mobile focado em aplicações Android utilizando Kotlin. Exploração das ferramentas e frameworks nativos do Android, aplicando boas práticas de desenvolvimento mobile e arquitetura de aplicativos.",
+            description: "Aplicativo Android para criação e gerenciamento de flashcards voltados para programação e desenvolvimento. Ferramenta educacional que permite aos desenvolvedores criar, organizar e estudar conceitos de código de forma interativa, utilizando Kotlin e arquitetura nativa Android.",
             links: {
-                project: "https://github.com/Ulisses-Antonelli/Desenvolvimento-Mobile-Android-4semestre",
-                github: "https://github.com/Ulisses-Antonelli/Desenvolvimento-Mobile-Android-4semestre"
+                project: "https://github.com/Ulisses-Antonelli/CodeCrumbsMobile",
+                github: "https://github.com/Ulisses-Antonelli/CodeCrumbsMobile"
             },
             technologies: ["Kotlin", "Android"],
+        },
+        {
+            image: "https://placehold.co/560x200?text=TaskManager+CIVIL",
+            title: "TaskManager CIVIL",
+            semester: "6º Semestre",
+            description: "Sistema multiplataforma de gerenciamento de projetos de construção civil. Oferece controle completo de obras com cronogramas, progresso e status. Desenvolvido com Kotlin Multiplatform e Compose Multiplatform, implementando gestão de projetos, tarefas, colaboradores, times e documentos com arquitetura MVVM e Clean Architecture.",
+            links: {
+                project: "https://github.com/Ulisses-Antonelli/TaskManagerCIVIL",
+                github: "https://github.com/Ulisses-Antonelli/TaskManagerCIVIL"
+            },
+            technologies: ["Kotlin", "Compose Multiplatform"],
         },
 
     ];

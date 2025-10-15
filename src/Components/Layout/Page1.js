@@ -17,23 +17,23 @@ const homeCards = [
         link: "/portifolio",
         color: "#20221D"
     },
-    {
-        id: 3,
-        label: "SKILLS",
-        description: "Conheça as tecnologias e ferramentas que domino: HTML, CSS, JavaScript, React, Node.js, Java, Spring Boot, MySQL, Kotlin e Android.",
-        link: "/about",
-        color: "#16111C"
-    },
 ];
 
 export default function Page1() {
     return (
-        <>
+        <div style={{
+            height: '100%',
+            maxHeight: '100%',
+            overflow: 'hidden',
+            display: 'flex',
+            flexDirection: 'column',
+            boxSizing: 'border-box'
+        }}>
             <Banner />
             <Contact />
             <ContainerCard
                 cards={homeCards}
             />
-        </>
+        </div>
     );
 }

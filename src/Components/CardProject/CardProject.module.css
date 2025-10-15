@@ -2,7 +2,7 @@
     position: relative;
     background: #121212;
     color: white;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 20px;
     height: 200px;
     min-height: 200px;
@@ -11,6 +11,7 @@
     flex-direction: row;
     gap: 15px;
     overflow: hidden;
+    border: 2px solid rgb(255, 255, 255);
 }
 
 .imageContainer {
@@ -33,13 +34,12 @@
 
 .overlayTitle {
     position: absolute;
-    bottom: 10px;
-    left: 10px;
+    bottom: 8px;
+    left: 15px;
     font-size: 1.8rem;
     color: #ff0000;
     font-family: "Staatliches", sans-serif;
     z-index: 1;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .containerDescripion {
@@ -59,9 +59,9 @@
     -webkit-box-orient: vertical;
     overflow: hidden;
     font-family: "Alumni Sans", sans-serif;
-    font-size: 1.1rem;
+    font-size: 1.65rem;
     font-weight: 200;
-    color: #fff;
+    color: #b7b7b7;
     line-height: 1.3;
 }
 

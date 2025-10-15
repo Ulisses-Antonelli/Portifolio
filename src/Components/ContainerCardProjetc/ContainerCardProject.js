@@ -7,7 +7,7 @@ export default function ContainerCardProject({ projects }) {
         <>
             <div className={styles.borda}>
                 <p className={styles.borderText}>
-                    Tecnologias: HTML • CSS • JavaScript • jQuery • Node.js • React • Java • Spring Boot • MySQL • Bootstrap • Kotlin • Android
+                    • Node.js • React • Java • Spring Boot • MySQL • Kotlin • Android • KMP •
                 </p>
             </div>
             <div className={styles.grid}>

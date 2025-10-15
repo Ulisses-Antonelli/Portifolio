@@ -3,11 +3,21 @@ import Header from "../Header/Header";
 
 export default function MainLayout() {
     return (
-        <>
-                <Header />
-            <main>
+        <div style={{
+            height: '100vh',
+            maxHeight: '100vh',
+            overflow: 'hidden',
+            display: 'flex',
+            flexDirection: 'column'
+        }}>
+            <Header />
+            <main style={{
+                flex: 1,
+                overflow: 'auto',
+                position: 'relative'
+            }}>
                 <Outlet />
             </main>
-        </>
+        </div>
     );
 }

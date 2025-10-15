@@ -3,10 +3,13 @@
     background-color: #BCBCBC;
     margin: 10px 40px 0px 40px;
     color: #ffffff;
-    padding: 0.3rem 3rem 0.3rem 3rem;
+    padding: 0.3rem 1.5rem 0.3rem 1.5rem;
     align-items: center;
     justify-content:space-between;
     border-radius: 25px;
+    height: 12vh;
+    min-height: 12vh;
+    max-height: 12vh;
   }
 
   .title {

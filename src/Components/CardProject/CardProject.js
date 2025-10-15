@@ -3,7 +3,7 @@ import styles from "./CardProject.module.css";
 import Button from "../Button/Button";
 import { icons } from "../../assets/icons";
 
-export default function CardProject({ image, title, description, links, technologies }) { 
+export default function CardProject({ image, title, description, links, technologies, semester }) {
     return (
         <div className={styles.card} >
             <div className={styles.imageContainer}>
@@ -16,6 +16,7 @@ export default function CardProject({ image, title, description, links, technolo
                     <div className={styles.links}>
                         <Button href={links.project} target="_blank" rel="noopener noreferrer">Acessar</Button>
                         <Button href={links.github} target="_blank" rel="noopener noreferrer">GitHub</Button>
+                        <Button href="https://fateczl.edu.br/arquivos/Grade%20DSM.pdf" target="_blank" rel="noopener noreferrer">{semester}</Button>
                     </div>
                     <div className={styles.technologies}>
                         {technologies.map((tech, index) => (

@@ -4,14 +4,14 @@
     justify-content:flex-end; 
     font-family: "Staatliches", sans-serif;
     text-decoration: none;
-    background: #C3C3C3;
+    background: #727272;
     border: 3px solid white;
     border-radius: 10px;
-    color: #ffffff;
+    color: #61dafb;
     padding: 10px 14px 4px 42px;
     cursor: pointer;
     font-size: 1.5em;
-    margin-left: 12px;
+    margin-left: 1px;
 }
 
 .buttonDestacado{

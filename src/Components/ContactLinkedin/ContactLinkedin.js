@@ -4,7 +4,7 @@ import styles from "./ContactLinkedin.module.css";
 export default function ContactLinkedin() {
     return(
         <a
-            href="https://www.linkedin.com/in/seu-usuario"
+            href="https://www.linkedin.com/in/ulisses-antonelli-softwaredeveloper/"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.contactLinkedin}
