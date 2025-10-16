@@ -5,7 +5,7 @@ import imageGitHub from "../../assets/imageGitHub.svg"
 export default function ContactGithub() {
     return(
         <a
-            href="https://github.com/seu-usuario"
+            href="https://github.com/Ulisses-Antonelli"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.contactGithub}
