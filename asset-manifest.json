@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portifolio/static/css/main.ccdd0301.css",
-    "main.js": "/Portifolio/static/js/main.6c103fc3.js",
+    "main.js": "/Portifolio/static/js/main.bb6dcef1.js",
     "static/media/SaudeExata.png": "/Portifolio/static/media/SaudeExata.1628b1dfed3c627fd212.png",
     "static/media/CodeCrumbsMobile.png": "/Portifolio/static/media/CodeCrumbsMobile.f3600b82510e791b61cb.png",
     "static/media/Tech Recycle.png": "/Portifolio/static/media/Tech Recycle.961f5fd23ba1feeb49ec.png",
@@ -11,10 +11,10 @@
     "index.html": "/Portifolio/index.html",
     "static/media/Logo.svg": "/Portifolio/static/media/Logo.219b165bd4145dc3331a16bd313c4d69.svg",
     "main.ccdd0301.css.map": "/Portifolio/static/css/main.ccdd0301.css.map",
-    "main.6c103fc3.js.map": "/Portifolio/static/js/main.6c103fc3.js.map"
+    "main.bb6dcef1.js.map": "/Portifolio/static/js/main.bb6dcef1.js.map"
   },
   "entrypoints": [
     "static/css/main.ccdd0301.css",
-    "static/js/main.6c103fc3.js"
+    "static/js/main.bb6dcef1.js"
   ]
 }
