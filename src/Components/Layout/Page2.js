@@ -4,6 +4,7 @@ import BattleStringImage from "../../assets/Battle String.png";
 import SaudeExataImage from "../../assets/SaudeExata.png";
 import TechRecycleImage from "../../assets/Tech Recycle.png";
 import CodeCrumbsMobileImage from "../../assets/CodeCrumbsMobile.png";
+import LogoTMC from "../../assets/Logo_TMC.png";
 
 export default function Page2() {
     const projects = [
@@ -52,12 +53,12 @@ export default function Page2() {
             technologies: ["Kotlin", "Android"],
         },
         {
-            image: "https://placehold.co/560x200?text=TaskManager+CIVIL",
+            image: LogoTMC,
             title: "TaskManager CIVIL",
             semester: "6º Semestre",
             description: "Sistema multiplataforma de gerenciamento de projetos de construção civil. Oferece controle completo de obras com cronogramas, progresso e status. Desenvolvido com Kotlin Multiplatform e Compose Multiplatform, implementando gestão de projetos, tarefas, colaboradores, times e documentos com arquitetura MVVM e Clean Architecture.",
             links: {
-                project: "https://github.com/Ulisses-Antonelli/TaskManagerCIVIL",
+                project: "https://ulisses-antonelli.github.io/TaskManagerCIVIL/",
                 github: "https://github.com/Ulisses-Antonelli/TaskManagerCIVIL"
             },
             technologies: ["Kotlin", "Compose Multiplatform"],
